@@ -1,5 +1,5 @@
 let fetch = require("node-fetch")
-const { sticker } = require('../lib/sticker.js')
+const { sticker } = require('./lib/sticker.js')
 const { MessageType } = require('@adiwajshing/baileys')
 
 let handler = async(m, { conn }) => {
