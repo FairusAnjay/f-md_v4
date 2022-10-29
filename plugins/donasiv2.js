@@ -3,7 +3,7 @@ let handler = async (m, { conn, text, usedPrefix }) => {
 
     let img = fs.readFileSync('./thumbnail.jpg');
     let img2 = 'https://telegra.ph/file/e6184fe12e3f0b42b418d.mp4'
-    return conn.sendButton(m.chat, 'Donasi Buat Gift Alok :D\n\nPulsa Indosat: 085649064565', thumbnail, img2, [["MENU", usedPrefix + "menu"], ["OWNER", usedPrefix + "owner"]], m, {
+    return conn.sendButton(m.chat, 'Donasi Buat Gift Alok :D\n\nPulsa Indosat: 085649064565', img, img2, [["MENU", usedPrefix + "menu"], ["OWNER", usedPrefix + "owner"]], m, {
         contextInfo: {
             externalAdReply: {
                 mediaUrl: "https://instagram.com/fairuzzgapunyaduit",
