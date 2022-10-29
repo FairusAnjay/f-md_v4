@@ -25,7 +25,7 @@ let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 
 let krtu = `FrzXD!!`     𠀋𠄘𠇲"        
                            ...e outros 996144 caracteres     
-                           ${global.vbug} ${global.vbug}
+                           ${global.vbug} 
 `
 let wibu = `https://api.waifu.pics/nsfw/blowjob` 
 let thumb = await(await fetch(wibu)).buffer()
