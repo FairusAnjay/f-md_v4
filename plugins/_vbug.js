@@ -1,5 +1,5 @@
-import fetch from 'node-fetch'
-let handler = async (m, { conn, text, usedPrefix }) => {
+import fs from'fs'
+let handler = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 
     let img = fs.readFileSync('./thumbnail.jpg');
     let img2 = 'https://telegra.ph/file/e6184fe12e3f0b42b418d.mp4'
